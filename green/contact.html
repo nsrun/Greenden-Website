@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greenden Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen font-sans bg-gray-50 text-gray-800">
+
+  <!-- Navigation (same as before) -->
+  <nav class="bg-green-100 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="text-2xl font-bold text-green-700">Greenden</div>
+        <div class="space-x-6">
+          <a href="index.html" class="text-green-900 hover:text-green-500">Home</a>
+          <a href="products.html" class="text-green-900 hover:text-green-500">Products</a>
+          <a href="contact.html" class="text-green-900 hover:text-green-500">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Content -->
+  <main class="flex-1 p-4 max-w-2xl mx-auto my-10 bg-white rounded-lg shadow-lg">
+    <h2 class="text-3xl font-bold mb-6 text-center text-green-700">Get in Touch</h2>
+    <div class="space-y-4">
+      <p><strong>Address:</strong> 123 Green Street, Eco City</p>
+      <p><strong>Phone:</strong> (123) 456-7890</p>
+      <p><strong>Email:</strong> info@greenden.com</p>
+    </div>
+    <div class="mt-8">
+      <h3 class="text-xl font-semibold mb-4 text-green-700">Send Us a Message</h3>
+      <form class="space-y-4">
+        <div>
+          <label class="block mb-1" for="name">Name</label>
+          <input type="text" id="name" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-300" />
+        </div>
+        <div>
+          <label class="block mb-1" for="email">Email</label>
+          <input type="email" id="email" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-300" />
+        </div>
+        <div>
+          <label class="block mb-1" for="message">Message</label>
+          <textarea id="message" rows="4" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-300"></textarea>
+        </div>
+        <button type="submit" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded transition">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-100 text-center p-4 mt-auto text-sm text-green-700">
+    &copy; 2024 Greenden. All rights reserved.
+  </footer>
+</body>
+</html>
