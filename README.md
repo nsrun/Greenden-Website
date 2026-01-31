@@ -1,4 +1,4 @@
-# Greenden Website
+### Greenden Website
 
 A simple eco-friendly website built with HTML and Tailwind CSS.
 
